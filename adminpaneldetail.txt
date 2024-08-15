@@ -1,0 +1,146 @@
+admin panel
+-courses
+. title,discription,image,fees,duration
+-entrance student
+.name,email,roll no., phone no. ,"result"(pass/fail)
+-registered students
+.id, name, email,phone no. , address , fees status(paid / unpaid), course id(fk)
+-admin
+.username, email, password
+-about
+.title , discription ,image
+-contact
+.branch details, contact email , address , image
+-fees
+.id,std id, course id,(will update status in student table)
+-exam
+.exam id, date , time , venue ,result date
+
+
+To design a navigation bar for the Symphony Ltd. online portal, you can create two separate navigation systems: one for general users (students and visitors) and one for the admin. Below are the suggested tabs for the navigation bars along with a step-by-step flow for each type of user.
+
+General User Navigation Bar
+This navigation bar is for visitors who are exploring the website, learning about the courses, and checking results.
+
+Home
+
+Brief description of the institute
+Overview of courses offered
+Latest news and updates
+About Us
+
+Information about the institution
+History, mission, and vision
+Faculty and staff profiles
+Courses
+
+List of all courses offered
+Detailed description of each course
+Topics covered, duration, and fees
+Special programs or certifications
+Entrance Examination
+
+Information about upcoming exams
+How to apply for the entrance exam
+Exam schedule and fees
+Link to check exam results (input roll number to view results)
+FAQ
+
+Frequently asked questions
+How to join a course
+Details about lab facilities, payment methods, etc.
+Contact Us
+
+List of different branches and their addresses
+Contact numbers and email addresses
+Map and directions to the centers
+Admin Navigation Bar
+This navigation bar is for administrators who will manage the content and operations of the site.
+
+Dashboard
+
+Overview of site activities
+Quick access to manage different sections
+Manage Courses
+
+Add new courses
+Update existing course details
+Remove outdated courses
+Entrance Examination
+
+Update information about upcoming exams
+Enter and manage student exam results
+Segregate students based on exam results
+Set and update entrance exam fees
+Student Results
+
+Enter student marks and class segregation details
+Manage course fees based on the segregation
+Update or delete existing results
+FAQ Management
+
+Add new FAQs
+Update or delete existing FAQs
+Manage Centers
+
+Add, update, or delete branch locations and contact details
+Maintain the list of branches, addresses, and phone numbers
+About Us
+
+Update the information about the institution
+Modify or add details about faculty and history
+Logout
+
+Securely log out of the admin panel
+User Flow: General User
+Visit Home Page → Explore brief details about the institute and courses.
+Navigate to "Courses" → View available courses and their details.
+Go to "Entrance Examination" → Learn about upcoming exams, apply, and check results by entering the roll number.
+Visit "FAQ" → Find answers to common queries.
+Check "Contact Us" → Get branch contact details and locations.
+User Flow: Admin
+Login as Admin → Access the admin dashboard.
+Manage Courses → Add, update, or delete course details.
+Update Exam Information → Enter upcoming exam details and manage results.
+Enter Results → Segregate students and update course fees based on results.
+Manage FAQ → Add, update, or remove FAQ entries.
+Update Center Details → Modify or add branch information.
+Logout → Log out securely after completing the tasks.
+This setup ensures that both the general users and admin have clear, easy-to-navigate options tailored to their needs.
+
+
+<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
